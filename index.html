@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!---------STYLES--------->
+    <link rel="stylesheet" href="./desktop.css">
+    <link rel="stylesheet" type="text/css" href="./assets/icons/css/all.css">
+    
+</head>
+<body>
+  <header> 
+    <nav class="container desktop">
+      <div class="logo">
+        <img src="./assets/code icon.png" alt="Ícone de Código" id="code_icon">
+        <h2>xandev</h2>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>            
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <div id="icon_menu" class="icon-header show"><i class="fa-solid fa-bars"></i></div>
+      <div id="icon_close" class="icon-header"><i class="fa-solid fa-xmark"></i></div>
+    </nav>
+  </header>
+  <main>
+    <section id="main">
+      <section id="home" class="container">
+        <div id="text_main1">
+          <div class="bar"></div>
+          <h1>Prazer em conhecer! <br> Meu nome é <span>Alexandre</span></h1>
+          <p>Amo aprender coisas novas e inovadoras e tenho um profundo desejo  de desenvolver <br> algo que gere um impacto positivo na vida de alguém.</p>
+          <p>Atualmente estouestudando React e TypeScript por se  tratarem de tecnologias da área <br> na qual quero me desenvolver, <strong>Desenvolvimento Web Front-End</strong> </p>
+          <div id="technologies"> 
+            <div id="conhecimentos">
+              <p><strong>Conhecimentos:</strong></p>
+              <div class="icons">
+                <img class="icon" src="./assets/html icon.png" alt="Logo do HTML">
+                <img class="icon" src="./assets/css icon.png" alt="Logo do CSS">
+                <img class="icon" src="./assets/js icon.png" alt="Logo do JavaScript">
+              </div>
+            </div>
+            <div id="Estudando">
+              <p><strong>Em estudo:</strong></p>
+              <div class="icons">
+                <img src="./assets/react-icon.png" alt="Logo do React" class="icon">
+                <img src="./assets/ts icon.png" alt="Logo do TypeScript" class="icon">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="image_main1">
+          <img src="./assets/profile-photo.jpg" alt="Imagem do Rosto de Alexandre">
+        </div>
+      </section>
+      <section id="about">
+        <div>
+          <div id="photo_about">
+            <img src="./assets/Photo-computer.jpg" alt="Foto de um computador">
+          </div>
+          <div id="text2">
+            <h2>Sobre Mim</h2>
+            <p>Sempre gostei de tecnologia e de "brincar" com esse tipo de coisa. Não conhecia a área até no ano passado quando conversei com um amigo 
+            e ele me explicou como funcionava esse maravilhoso <strong>"Mundo Dev"</strong> e eu me interessei muito pela área. <br> <br> Eu sabia que seria difícil, 
+            meu computador já era bem antigo e teria dificuldade de rodar alguns programas. Mas não desanimei e decidi cair de cabeça na área e consegui 
+            aprender bastante coisa com aquilo que eu tenho. <br> <br> Sou um cara batalhador, que dificilmente dirá que um problema não tem solução. Busco minha primeira
+            oportunidade na área de <strong>Desenvolvimento Front-End </strong> para que eu possa contribuir na sua empresa com as minhas Soft Skills e Hard Skills. 
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="container">
+        <h2>Projetos</h2>
+        <div class="links">
+          <a href="#">
+            <div><img src="./assets/Calculadora.png" alt="Projeto de Calculadora"></div>
+            <p>Calculadora</p>
+          </a>
+          <a href="#">
+            <div><img src="./assets/apple-site.png" alt="Projeto Apple"></div>
+            <p>Desktop Landing Page - Apple</p>
+          </a>
+          <a href="#">
+            <div class="image">
+              <img src="./assets/construction icon.png" alt="">
+            </div>
+            <p>Em andamento...</p>
+          </a>  
+        </div>
+      </section>
+    </section>
+    <section id="mobile_menu">
+      <ul>
+        <li><a onclick="clicar()" href="#home">Home</a></li>
+        <li><a onclick='clicar()' href="#about">Sobre mim</a></li>
+        <li><a onclick='clicar()' href="#projects">Projetos</a></li>
+        <li><a onclick='clicar()' href="#contact">Contato</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <section id="contact">
+      <h2>Contato</h2>
+      <div class="social_media">
+        <a target="_blank" href="https://www.linkedin.com/in/alexandre-de-souza-55201b202/" id="linkedin">
+          <img class="icon" src="./assets/linkedin icon.png" alt="Logo do Linkedin">
+        </a>
+        <a target="_blank" href="https://wa.me/5521959041483" id="Whatsapp">
+          <img class="icon" src="./assets/whatsapp icon.png" alt="Logo do Whatsapp">
+        </a>
+        
+      </div>
+    </section>
+  </footer>   
+  <script src="./main.js"></script>
+</body>
+</html>
